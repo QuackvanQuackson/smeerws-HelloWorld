@@ -4,12 +4,11 @@
 using System;
 using UnityEngine;
 
-
-public class HelloWorld : MonoBehaviour {
-
-
+public class HelloWorld : MonoBehaviour 
+{
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         string hw = "Hello World (hw)";
 
         print("(print) Hello World");
@@ -25,7 +24,8 @@ public class HelloWorld : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
 		
 	}
 }
